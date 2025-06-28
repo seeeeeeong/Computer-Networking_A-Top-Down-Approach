@@ -1,58 +1,58 @@
-# 컴퓨터 네트워크 정리
+# 컴퓨터 네트워크 정리 문서
 
-이 문서는 컴퓨터 네트워크의 핵심 개념을 계층별로 정리한 자료입니다. 
+이 문서는 컴퓨터 네트워크의 주요 개념을 정리한 학습 자료입니다.  
 
 ---
 
 ## 목차
 
-1. [컴퓨터 네트워크와 인터넷](./1_internet/)
-    - [인터넷 개요](./1_internet/internet_overview.md)
-    - [종단 시스템](./1_internet/host_end_system.md)
-    - [패킷 교환과 라우터](./1_internet/packet_switching.md)
-    - [ISP 구조](./1_internet/isp_structure.md)
-    - [인터넷 프로토콜](./1_internet/protocols.md)
-    - [소켓 인터페이스](./1_internet/socket_interface.md)
+### 컴퓨터 네트워크와 인터넷
+- [인터넷 개요](./01_internet_overview.md)
+- [종단 시스템](./02_host_end_system.md)
+- [패킷 교환과 라우터](./03_packet_switching.md)
+- [ISP 구조](./04_isp_structure.md)
+- [인터넷 프로토콜](./05_protocols.md)
+- [소켓 인터페이스](./06_socket_interface.md)
 
-2. [애플리케이션 계층](./2_application_layer/)
-    - [애플리케이션 구조](./2_application_layer/app_structure.md)
-    - [HTTP와 DNS](./2_application_layer/http_dns.md)
-    - [FTP, Email](./2_application_layer/ftp_email.md)
-    - [소켓 프로그래밍](./2_application_layer/socket_programming.md)
+### 애플리케이션 계층
+- [애플리케이션 구조](./07_app_structure.md)
+- [HTTP와 DNS](./08_http_dns.md)
+- [FTP, Email](./09_ftp_email.md)
+- [소켓 프로그래밍](./10_socket_programming.md)
 
-3. [트랜스포트 계층](./3_transport_layer/)
-    - [UDP](./3_transport_layer/udp.md)
-    - [TCP](./3_transport_layer/tcp.md)
-    - [혼잡 제어](./3_transport_layer/congestion_control.md)
-    - [멀티플렉싱/디멀티플렉싱](./3_transport_layer/multiplexing.md)
+### 트랜스포트 계층
+- [UDP](./11_udp.md)
+- [TCP](./12_tcp.md)
+- [혼잡 제어](./13_congestion_control.md)
+- [멀티플렉싱 / 디멀티플렉싱](./14_multiplexing.md)
 
-4. [네트워크 계층: 데이터 평면](./4_network_layer_data_plane/)
-    - [포워딩](./4_network_layer_data_plane/forwarding.md)
-    - [라우터](./4_network_layer_data_plane/routers.md)
-    - [IPv4와 IPv6](./4_network_layer_data_plane/ipv4_ipv6.md)
-    - [NAT](./4_network_layer_data_plane/nat.md)
+### 네트워크 계층: 데이터 평면
+- [포워딩](./15_forwarding.md)
+- [라우터 구조](./16_routers.md)
+- [IPv4와 IPv6](./17_ipv4_ipv6.md)
+- [NAT](./18_nat.md)
 
-5. [네트워크 계층: 제어 평면](./5_network_layer_control_plane/)
-    - [라우팅 알고리즘](./5_network_layer_control_plane/routing_algorithms.md)
-    - [OSPF / BGP](./5_network_layer_control_plane/ospf_bgp.md)
-    - [SDN](./5_network_layer_control_plane/sdn.md)
+### 네트워크 계층: 제어 평면
+- [라우팅 알고리즘](./19_routing_algorithms.md)
+- [OSPF / BGP](./20_ospf_bgp.md)
+- [SDN (소프트웨어 정의 네트워크)](./21_sdn.md)
 
-6. [링크 계층과 근거리 네트워크](./6_link_layer_lan/)
-    - [에러 검출 및 수정](./6_link_layer_lan/error_detection.md)
-    - [MAC 주소와 ARP](./6_link_layer_lan/mac_address.md)
-    - [스위치와 VLAN](./6_link_layer_lan/switch_vlan.md)
-    - [ARP 상세](./6_link_layer_lan/arp.md)
+### 링크 계층과 근거리 네트워크
+- [에러 검출 및 수정](./22_error_detection.md)
+- [MAC 주소와 ARP](./23_mac_address.md)
+- [스위치와 VLAN](./24_switch_vlan.md)
+- [ARP 상세](./25_arp.md)
 
-7. [무선 및 이동 네트워크](./7_wireless_mobile/)
-    - [Wi-Fi (802.11)](./7_wireless_mobile/wifi.md)
-    - [모빌리티와 핸드오프](./7_wireless_mobile/mobility.md)
-    - [셀룰러 네트워크](./7_wireless_mobile/cellular_network.md)
+### 무선 및 이동 네트워크
+- [Wi-Fi (802.11)](./26_wifi.md)
+- [모빌리티와 핸드오프](./27_mobility.md)
+- [셀룰러 네트워크](./28_cellular_network.md)
 
-8. [컴퓨터 네트워크 보안](./8_network_security/)
-    - [암호화](./8_network_security/cryptography.md)
-    - [TLS / HTTPS](./8_network_security/tls_https.md)
-    - [인증과 서명](./8_network_security/authentication.md)
-    - [방화벽 / IDS](./8_network_security/firewall_ids.md)
+### 컴퓨터 네트워크 보안
+- [암호화 기법](./29_cryptography.md)
+- [TLS / HTTPS](./30_tls_https.md)
+- [인증과 디지털 서명](./31_authentication.md)
+- [방화벽과 IDS](./32_firewall_ids.md)
 
 ---
 
